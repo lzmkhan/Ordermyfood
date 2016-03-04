@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+         android:layout_margin="10dip"
+            android:background="@drawable/layoutrectshape1"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp" >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.37"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dip"
+                        android:text="@string/deliverby"
+                        android:textColor="#ffffff" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dip"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/date"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/changedatebtn"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="80dp"
+                            android:layout_height="31dp"
+                            android:layout_margin="5dip"
+                            android:background="@drawable/buttonshape1"
+                            android:padding="5dip"
+                            android:text=""
+                            android:textColor="#ffffff"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dip"
+                            android:text="@string/time"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/changetimebtn"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="80dp"
+                            android:layout_height="31dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/buttonshape1"
+                            android:padding="5dip"
+                            android:text="@string/btnchange"
+                            android:textColor="#ffffff" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.54"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dip"
+                        android:text="@string/address"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/addresstext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dip"
+                        android:text="@string/adrdet"
+                        android:textColor="#ffffff" />
+
+                    <Button
+                        android:id="@+id/changeaddrbtn"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="80dp"
+                        android:layout_height="31dp"
+                        android:layout_margin="5dip"
+                        android:background="@drawable/buttonshape1"
+                   
+                        android:padding="5dip"
+                        android:text="@string/btnchange"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ListView
+        android:id="@+id/ordersumlist"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_margin="10dip"
+        android:layout_weight="0.66"
+        android:background="@drawable/layoutrectshape1"
+        android:divider="#80ffffff"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_row_selector" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/layoutrectshape1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/checkoutbtn"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="80dp"
+                android:layout_height="31dp"
+                android:layout_margin="20dip"
+                android:layout_weight="0.07"
+                android:background="@drawable/buttonshape1"
+                android:padding="5dip"
+                android:text="@string/checkout"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/servicetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="right"
+                android:text="@string/servtax"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/deliverytext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/delchg"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/totaltext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sumtotal"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

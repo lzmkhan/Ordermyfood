@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ordermyfood1.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+     <item android:id="@+id/action_cart"
+          android:icon="@drawable/carticon"
+          android:title="@string/cart" 
+             app:showAsAction="ifRoom"
+             android:layout_width="24dp"
+    android:layout_height="24dp"/>
+    
+</menu>

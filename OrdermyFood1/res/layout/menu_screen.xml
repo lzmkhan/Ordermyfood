@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background ="@drawable/background2">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="60dip"
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/layoutrectshape1"
+        android:orientation="vertical"
+        android:padding="1dip"
+         >
+         
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/menuscreenmenutitle" 
+            android:textColor ="#ffffff"
+            android:textSize="30sp"/>
+        
+         </LinearLayout>
+         
+       <ListView
+        android:id="@+id/listmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="50dip"
+             android:background="@drawable/layoutrectshape1"
+        android:divider="#80ffffff"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_row_selector"
+             
+             >
+    </ListView>
+    
+</LinearLayout>

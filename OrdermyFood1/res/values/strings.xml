@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OrdermyFood</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+<string name="cart">Cart</string>
+    <string name="mainscreenrestainfo">FreeBay Restaurant \n 23/45 Street Name, \n Area Name, \n City Name, \n Ph:1234567890 \n Timings :\n Weekdays :9am-9pm \n Weekend:10am-7pm</string>
+    <string name ="listitemtitle">Chicken Biryani</string>
+    <string name="listitemdesc">1 plate with onion chutni</string>
+    <string name="listitemprice">INR 90</string>
+    <string name="listitemqnty">Qnty: 0</string>
+    <string name="action_settings1">Settings</string>
+    <string name="menuscreenmenutitle">Menu</string>
+    <string name="date">Date:</string>
+    <string name="time">Time:</string>
+    <string name="INR">INR</string>
+    <string name="dialogtitle">Chicken Biryani</string>
+    <string name="dialogdesc">1 plate biryani with 1 cup onion chutni</string>
+    <string name="dialogprice">Price : INR 90</string>
+    <string name="dialogqnty">Quantity: </string>
+    <string name="dialogbtn">Add to cart</string>
+    <string name="btnchange">Change</string>
+    <string name="qntyzero">0</string>
+    <string name="deladd">Delivery Address</string>
+    <string name="orderbtn">Order Food</string>
+    <string name="enquirebtn">Enquiry</string>
+    <string name="deliverby">Deliver by:</string>
+    <string name="address">Destination:</string>
+    <string name="cartsamp">INR \n180</string>
+    <string name="sumtotal">Total: INR 560</string>
+    <string name="servtax">Service tax: INR 80</string>
+    <string name="checkout">Checkout</string>
+    <string name="addname">Name:</string>
+    <string name="addPhone">Phone No:</string>
+    <string name="addAddrsStreet">Door No , Street Name :</string>   
+    <string name="addAddrsArea">Area:</string> 
+    <string name="okbtn"> Ok </string>
+    <string name="addAddrsCity">City:</string>
+    <string name="addAddrsPin">Pincode:</string>
+    <string name="delchg">Delivery Charge: INR 50</string>
+    <string name="adrdet">123, street name, \n Block name, \n Area Name, \n City - 999999</string>
+</resources>

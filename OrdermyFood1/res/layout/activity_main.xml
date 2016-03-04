@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckground"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="5dip"
+         android:background="@drawable/layoutrectshape" 
+         >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="250dip"
+            android:layout_height="150dip"
+            android:src="@drawable/restuarantpic" 
+            android:layout_margin="5dip"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/mainscreenrestainfo"
+            android:textColor="#ffffff" 
+              android:layout_margin="5dip"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+         android:padding="20dip" >
+        
+          <Button
+              android:id="@+id/orderfood_btn"
+              android:layout_width="266dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:background="@drawable/buttonshape"
+              android:onClick="onorderclick"
+              android:padding="10dip"
+              android:shadowColor="#A8A8A8"
+              android:shadowDx="0"
+              android:shadowDy="0"
+              android:shadowRadius="5"
+              android:text="@string/orderbtn"
+              android:textColor="#FFFFFF"
+              android:textSize="20sp" />
+
+          <Button
+              android:id="@+id/enquiry_btn"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginTop="10dp"
+              android:background="@drawable/buttonshape"
+              android:onClick="onenquiryclick"
+              android:padding="10dip"
+              android:shadowColor="#A8A8A8"
+              android:shadowDx="0"
+              android:shadowDy="0"
+              android:shadowRadius="5"
+              android:text="@string/enquirebtn"
+              android:textColor="#FFFFFF"
+              android:textSize="20sp" />
+        
+    </LinearLayout>
+
+</LinearLayout>
